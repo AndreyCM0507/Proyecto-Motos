@@ -1,0 +1,790 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Author" content="Andrey Cruz Molina">
+    <meta name="keywords" content="motos,informacion">
+    <link rel="icon" href="imginicio/icono.png">
+    <title>MotoWeb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+  </head>
+  <body>
+
+
+    <header>
+        <nav aria-label="Menu Princial" class="menu1 navbar navbar-expand-lg text-white bg-secondary fs-1">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="Inicio.html">Moto Web</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Bara de navegacion">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="Inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="Motos.html">Motos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white" href="AcercaDe.html">Acerca de</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+      <!--
+        <div aria-label="SubMenus de motos" class="dropdown">
+                <a aria-label="Totas las motos" class="btn btn-secondary dropdown-toggle fs-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Todas las motos
+                </a>
+                <ul class="dropdown-menu">
+                <li><a aria-label="Motos marca Kawasaki" class="dropdown-item active fs-2" href="#">Todas las motos</a></li>
+                <li><a aria-label="Motos marca Kawasaki" class="dropdown-item fs-2" href="#">Kawasaki</a></li>
+                <li><a aria-label="Motos marca Zuzuki" class="dropdown-item fs-2" href="#">Suzuki</a></li>
+                <li><a aria-label="Motos marca BMW" class="dropdown-item fs-2" href="#">BMW</a></li>
+                <li><a aria-label="Motos marca Yamaha" class="dropdown-item fs-2" href="#">Yamaha</a></li>
+                </ul>
+      </div>
+      
+      -->
+    
+
+    <!--Conteniidos de las cartas-->
+    <div id="contenedor1" class="container image-page active">
+      <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 fs-2">
+
+        <div  id="kawasaki" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/Kawasaki Ninja 500 SE ABS.jpg" class="card-img-top" alt="Kawasaki Ninja 500">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">Kawasaki Ninja 500 SE</h5>
+              <p class="card-text"><center>Marca: Kawasaki</center></p>
+              <center><button type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-toggle="modal" data-bs-target="#Kawasaki500SE">
+               Ver detalles
+              </button></center>
+            </div>
+          </div>
+        </div >
+
+        <!--Modal para la Kawasaki Ninja 500-->
+
+        <div class="modal fade" id="Kawasaki500SE" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Kawasaki Ninja 500 SE</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <figure>
+                      <img src="./Kawasaki/22123721-0-133599181.jpg" class="d-block w-75 mx-auto" alt="Kawasaki ninja 500">
+                      <figcaption>Moto Kawasaki ninja 500 color verde, blanco y azul </figcaption>
+                    </figure>
+                    </div>
+                  <div class="carousel-item">
+                    <figure>
+                      <img src="./Kawasaki/24MY_Ninja_500_SE_GY2_STU__1_.png" class="d-block w-100" alt="Kawasaki ninja 500 SE">
+                      <figcaption>kAWASAKI NINJA 500 color verde y negro</figcaption>
+                    </figure>
+                    </div>
+                  <div class="carousel-item">
+                    <figure>
+                      <img src="./Kawasaki/th_24MY_Ninja_500_SE_GN1_ACT__10_.webp" class="d-block w-100" alt="Kawasaki ninja 500 SE">
+                      <figcaption>Kawasaki ninja 500 SE color verde claro y negro</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                <br>
+                <article>
+                  <h2>Kawasaki ninja 500 SE</h2>
+                  <p>La Kawasaki Ninja 500 SE es una moto deportiva que fue lanzada como parte de la serie Ninja de Kawasaki, una línea conocida por sus motocicletas de alto rendimiento. La Ninja 500 SE (Sport Edition) es una variante de la Ninja 500, y se ofrece con características especiales que la hacen más atractiva para ciertos conductores.</p>
+                </article>
+                <section>
+                  <dl>
+                    <dt>Motor:</dt>
+                    <dd>La Ninja 500 SE cuenta con un motor de 498 cc, de 2 cilindros en paralelo y refrigerado por líquido.</dd>
+                    <dt>Potencia:</dt>
+                    <dd>La potencia de la Ninja 500 SE está alrededor de los 60 caballos de fuerza.</dd>
+                    <dt>Cilindrada:</dt>
+                    <dd>498 cc, lo que la coloca en una categoría de motocicletas de cilindrada media.</dd>
+                  </dl>
+                </section>
+                <center><button id="btnKawa500" type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2">Pagina de la moto</button></center>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--BMW F 800 GS-->
+        
+        <div id="BMW" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/BMW_F_800_GS.jpg" class="card-img-top" alt="BMW F 800 GS">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">BMW F 800 GS</h5>
+              <p class="card-text">Marca: BMW</p>
+              <center><button type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-toggle="modal" data-bs-target="#BMWF800GS">
+                Ver detalles
+               </button></center>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal para la BMW F 800 GS-->
+
+        <div class="modal fade" id="BMWF800GS" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">BNW F 800 GS</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+              <div id="carouselExampleIndicators3" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <figure>
+                      <img src="./imgMotos/BMW_F_800_GS.jpg" class="d-block w-75 mx-auto" alt="BMW F 800 GS">
+                      <figcaption>BMW F 800 GS Blanco, Azul y negro</figcaption>
+                    </figure>
+                    </div>
+                  <div class="carousel-item">
+                    <figure>
+                      <img src="./BMW/bmw2.jpg" class="d-block w-100" alt="BMW F">
+                      <figcaption>BMW F 800 GS Negro y Amarillo</figcaption>
+                    </figure>
+                    </div>
+                  <div class="carousel-item">
+                    <figure>
+                      <img src="./BMW/bmw3.jpg" class="d-block w-100" alt="Bmw ">
+                      <figcaption>BMW_F_800_GS</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                <br>
+                <article>
+                  <h2>BMW_F_800_GS</h2>
+                  <p>La BMW F 800 GS es una motocicleta de aventura que se lanzó por primera vez en 2008 y rápidamente se ganó la reputación de ser una de las mejores opciones para quienes buscan una moto versátil tanto para carretera como para caminos off-road (fuera de carretera).</p>
+                </article>
+                <section>
+                  <dl>
+                    <dt>Motor:</dt>
+                    <dd>Bicilíndrico en línea, 798 cc, refrigerado por líquido.</dd>
+                    <dt>Potencia:</dt>
+                    <dd>Aproximadamente 85 caballos de fuerza (63 kW) a 7,500 rpm</dd>
+                    <dt>Transmision:</dt>
+                    <dd>6 marchas.</dd>
+                    <dt>Consumo de combustible:</dt>
+                    <dd>En torno a los 4.5-5 litros por cada 100 km, dependiendo del estilo de conducción y las condiciones.</dd>
+                  </dl>
+                </section><article>
+                  <h2>BMW_F_800_GS</h2>
+                  <p>La BMW F 800 GS es una motocicleta de aventura que se lanzó por primera vez en 2008 y rápidamente se ganó la reputación de ser una de las mejores opciones para quienes buscan una moto versátil tanto para carretera como para caminos off-road (fuera de carretera).</p>
+                </article>
+                <section>
+                  <dl>
+                    <dt>Motor:</dt>
+                    <dd>Bicilíndrico en línea, 798 cc, refrigerado por líquido.</dd>
+                    <dt>Potencia:</dt>
+                    <dd>Aproximadamente 85 caballos de fuerza (63 kW) a 7,500 rpm</dd>
+                    <dt>Transmision:</dt>
+                    <dd>6 marchas.</dd>
+                    <dt>Consumo de combustible:</dt>
+                    <dd>En torno a los 4.5-5 litros por cada 100 km, dependiendo del estilo de conducción y las condiciones.</dd>
+                  </dl>
+                </section>
+                <center><button id="btnBMWF800" type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2">Pagina de la moto</button></center>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--Yamaha FZN150-->
+
+        <div aria-label="Carta informativa de Yamaha FZN150" id="yamaha" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/Yamaha FZN150-SFI.webp" class="card-img-top" alt="Yamaha FZN150">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">Yamaha FZN150</h5>
+              <p class="card-text">Marca: Yamaha</p>
+              <center><button type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Ver detalles
+              </button></center>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal FZ150-->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <center>
+                  <figure>
+                    <video controls>
+                      <source src="./video/Yamaha Fz 2.0 Ficha tecnica yamaha fz150.mp4" type="video/mp4">
+                      <track src="SubtituFZ150.VTT" kind="subtitles" srclang="es" label="Spanish">
+                    </video>
+                  </figure>
+  
+                </center>
+                
+                <center><button id="btnFZ150" type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2">Pagina de la moto</button></center>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <!--Suzuki Gixxer 150 SE-->
+
+        <div aria-label="Carta Gixxer 150 SE" id="suzuki" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/Suzuki Gixxer 150 SE.webp" class="card-img-top" alt="Suzuki Gixxer 150">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">Gixxer 150 SE</h5>
+              <p class="card-text">Marca: Suzuki</p>
+              <center><button type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-toggle="modal" data-bs-target="#Gixxer150">
+                Ver detalles
+              </button></center>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal para la Suzuki Gixxer150 -->
+
+        <div class="modal fade" id="Gixxer150" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Gixxer 150 SE</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <center>
+                  <h1>Pagina en mantenimiento algunas cartas tendran su respectiva informacion en nuevas actualizaciones de la WEB</h1>
+  
+                </center>
+                
+                <center><button id="btnGixer" type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2">Pagina de la moto</button></center>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!------------------------------------------------------------------------------------------------------------>
+
+      <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 fs-2">
+
+        <!--Carta de la Kawasaki Ninja ZX 10R -->
+        <div aria-label="Carta de Kawasaki Ninja zx 10r" id="kawasaki" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/kawasaki-ninja-zx-10r-abs.jpg" class="card-img-top" alt="Kawasaki ninja zx 10">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">Kawasaki Ninja ZX 10r</h5>
+              <p class="card-text">Marca: Kawasaki</p>
+              <center><button type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-toggle="modal" data-bs-target="#KawasakiNinjaZX10R">
+                Ver detalles
+              </button></center>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal para la Kawasaki Ninja ZX 10R-->
+
+        <div aria-label="Modal para los datos de la Kawazaki" class="modal fade" id="KawasakiNinjaZX10R" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel"><center>Kawasaki Ninja ZX 10R</center></h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <center>  
+                  
+                <div id="carouselExampleIndicators4" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Carrusel Kawasaki NinjaZX10R"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <figure>
+                        <img src="./Kawasaki/Kawasaki_Ninja_ZX-10_ABS_Carruse1.jpg" class="d-block w-75 mx-auto" alt="Kawasaki NinjaZX10R">
+                        <figcaption>Kawasaki Ninja ZX10R VERDE Y NEGRO</figcaption>
+                      </figure>
+                      </div>
+                    <div class="carousel-item">
+                      <figure>
+                        <img src="./Kawasaki/Ninja ZX 10R 40thAnniversary.jpg" class="d-block w-75 mx-auto" alt="Kawasaki Ninja ZX 10R">
+                        <figcaption>Kawasaki Ninja estilo blanco y verde por el 40 aniversario</figcaption>
+                      </figure>
+                      </div>
+                    <div class="carousel-item">
+                      <figure>
+                        <img src="./Kawasaki/kawasaki-ninja-zx10r-Carru3.jpeg" class="d-block w-75 mx-auto" alt="Kawasaki Ninja zx 10r">
+                        <figcaption>Kawasaki Ninja ZX 10R Negro y Amarillo</figcaption>
+                      </figure>
+                      </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                  <br><br>
+                <article aria-label="historiaKawaZX10">
+                  <p class="parraKawa">La Kawasaki Ninja ZX-10R es una motocicleta deportiva de alta gama fabricada por la marca japonesa Kawasaki. Desde su lanzamiento en 2004, ha sido un modelo emblemático dentro de la categoría de superbikes, especialmente conocida por su rendimiento en pistas y su participación en campeonatos de motociclismo, como el Superbike World Championship (WSBK), donde ha sido muy exitosa.</p>
+                </article>
+                <br>
+                </center>
+                <section aria-label="lista detalles de la moto">
+                  <h2>Detalles de la moto</h2>
+                  <dl>
+                    <dt>Motor:</dt>
+                    <dd>La ZX-10R está equipada con un motor de 4 cilindros en línea, refrigerado por líquido, que ha tenido varias actualizaciones a lo largo de los años.</dd>
+                    <dt>Potencia:</dt>
+                    <dd>La potencia varía según la versión, pero las últimas ZX-10R ofrecen alrededor de 200-210 caballos de fuerza (hp), lo que la convierte en una de las motos más potentes de su categoría.</dd>
+                    <dt>Pantalla TFT:</dt>
+                    <dd>Una pantalla a color de alta resolución que proporciona datos cruciales al piloto, como modos de conducción, telemetría y más.</dd>
+                  </dl>
+                </section>
+                <br>
+                <section aria-label="Audio de la moto">
+                  <h2 aria-label="Sonido del motor">Aca te dejo un audio del sonido del motor</h2>
+                  <figure>
+                    <audio controls>
+                      <source src="./audio/Rate the sound 2021 Kawasaki Ninja ZX10RR.mp4" type="audio/mp4">
+                    </audio>      
+                  </figure>
+                  </section>
+                
+                <center><button id="btnKawaNinjaZX10R" type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2">Pagina de la moto</button></center>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!--Carta de la BMW R12 1939-->
+
+        <div aria-label="Carta de la BMW R12 1939" id="BMW" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/1939-bmw-r12.jpg" class="card-img-top" alt="BMW R12 1939">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title text-center">BMW r12 1939</h5>
+              <p class="card-text">Marca: BMW</p>
+              <center><button type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-toggle="modal" data-bs-target="#BMWR121939">
+                Ver detalles
+              </button></center>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal BMW R12 1939-->
+
+        <div class="modal fade" id="BMWR121939" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">BMW R12 1939 </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <center>
+                  <h1>Pagina en mantenimiento algunas cartas tendran su respectiva informacion en nuevas actualizaciones de la WEB</h1>
+  
+                </center>
+                
+                <center><button id="btnGixer" type="button" class="btn btn-primary">Pagina de la moto</button></center>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--Carta de la Yamaha YZF-RE-FI-->
+
+        <div id="yamaha" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="220vw" src="./imgMotos/Yamaha YZF-R3-FI.webp" class="card-img-top" alt="Yamaha YZF-R3-FI">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">Yamaha YZF-R3</h5>
+              <p class="card-text">Marca: Yamaha</p>
+              <center><button type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-toggle="modal" data-bs-target="#YAMAHAYZFR3">
+                Ver detalles
+              </button></center>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal para la Yamaha-->
+
+        <div class="modal fade" id="YAMAHAYZFR3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Yamaha YZF R3 FI </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+                
+            <div aria-label="Carrusel" id="carouselExampleIndicators5" class="carousel slide">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <figure>
+                    <img src="./Yamaha/10-yamaha-r3-Carrusel1.jpg" class="d-block w-75 mx-auto" alt="Yamaha R3">
+                    <figcaption>Yamaha R3 Azul y negro</figcaption>
+                  </figure>
+                  </div>
+                <div class="carousel-item">
+                  <figure>
+                    <img src="./Yamaha/Yamaha-YZF-R3-Carrusel2.webp" class="d-block w-75 mx-auto" alt="Yamaha R3">
+                    <figcaption>Yamaha R3 Celeste y Negro</figcaption>
+                  </figure>
+                  </div>
+                <div class="carousel-item">
+                  <figure>
+                    <img src="./Yamaha/Yamaha-R3-Carrusel3.jpg" class="d-block w-75 mx-auto" alt="...">
+                    <figcaption>Yamaha R3 morado y negro</figcaption>
+                  </figure>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators5" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+              <section aria-label="informacion de la moto">
+                <h2>Informacion General</h2>
+                <p>La Yamaha R3 es una motocicleta deportiva ligera muy popular, conocida por su agilidad, diseño estilizado y buen rendimiento. Es una excelente opción tanto para principiantes como para motociclistas con algo de experiencia.</p>
+              </section>
+              <br>
+              <center>
+                <figure>
+                  <video controls>
+                    <source src="./video/YAMAHA R3.mp4" type="video/mp4">
+                  </video>
+                </figure>
+                
+              </center>
+                
+                <center><button id="btnYamahar3" type="button" class="btn btn-primary">Pagina de la moto</button></center>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+        <div id="suzuki" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/Suzuki-Gixxer-250SF.webp" class="card-img-top" alt="Suzuki-Gixxer-250SF">  
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">Gixxer-250SF</h5>
+              <p class="card-text">Suzuki</p>
+              <center><a href="#" class="btn btn-primary">Ver detalle</a></center>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    
+
+     <div id="page2" class="container image-page">
+      <div class="row row-cols-xl-4 row-cols-md-2 row-cols-1 fs-2">
+
+        <!--Carta de la BMW M 1000 RR-->
+
+        <div id="BMW" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/BMW M 1000 RR.avif" class="card-img-top" alt="BMW M 1000 RR">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">BMW M 1000 RR</h5>
+              <p class="card-text">Marca: BMW</p>
+              <center><button type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-toggle="modal" data-bs-target="#BMWM1000RR">
+                Ver detalles
+               </button></center>
+            </div>
+          </div>
+        </div>
+
+        <!--Modal de la BMW M 1000RR-->
+
+        <div class="modal fade" id="BMWM1000RR" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">BMW M 1000 RR</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+              <div id="carouselExampleIndicators6" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <figure>
+                      <img src="./BMW/BMW1000RRCarrusel1.jpg" class="d-block w-75 mx-auto" alt="BMW M 1000RR">
+                      <figcaption>BMW M1000RR Blanco,Rojo y Azul</figcaption>
+                    </figure>
+                    </div>
+                  <div class="carousel-item">
+                    <figure>
+                      <img src="./BMW/M1000R-Carrusel2.png" class="d-block w-100" alt="BMW M 1000RR">
+                      <figcaption>BMW M1000RR Negro,Rojo y Blanco</figcaption>
+                    </figure>
+                    </div>
+                  <div class="carousel-item">
+                    <figure>
+                      <img src="./BMW/BMW1000RRCarrusel3.jpg" class="d-block w-100" alt="BMW M 1000RR">
+                      <figcaption>BMW M 1000RR Amarillo y Negro</figcaption>
+                    </figure>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators6" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+                <br>
+                <article>
+                  <h2>BMW M 1000RR</h2>
+                  <p>La BMW M 1000RR es una de las motocicletas deportivas más avanzadas y potentes de BMW Motorrad, diseñada para aquellos que buscan el máximo rendimiento tanto en pista como en la carretera. Esta moto forma parte de la serie M, que hace referencia a los modelos de alto rendimiento de la marca, similar a lo que sucede con los automóviles BMW M. A</p>
+                </article>
+                <section>
+                  <dl>
+                    <dt>Motor:</dt>
+                    <dd>La BMW M 1000RR está equipada con un motor de 999 cc, 4 cilindros en línea, refrigerado por líquido.</dd>
+                    <dt>Potencia:</dt>
+                    <dd>El motor desarrolla alrededor de 212 caballos de fuerza (hp) y 113 Nm de torque, lo que la convierte en una de las motos más potentes de su categoría.</dd>
+                    <dt>Transmisión:</dt>
+                    <dd>La moto tiene una transmisión de 6 velocidades con cambio rápido (Quickshifter), que permite cambios de marcha más rápidos, especialmente útiles en pista.</dd>
+                  </dl>
+                </section>
+                <br>
+                <section>
+                  <h2 aria-label="Sonito Motor">Sonido del motor de la BMW M 1000RR</h2>
+                  <audio controls>
+                    <source src="./audio/SonidoBMWSR1000.mp4" type="audio/mp4">
+                  </audio>
+                </section>
+                <br><br>
+                <section aria-label="Video sobre la BMW M1000R">
+                  <h2>Video informativo sobre la BMW M1000RR</h2>
+                  <figure>
+                    <video controls style="width: 35vw;">
+                      <source src="./video/Probando la BMW S1000RR 2022 al límite absoluto 🔥🔥🔥 review y test drive.mp4" type="video/mp4">
+                      <track src="SubtituoBMW1000RR.VTT" kind="subtitles" srclang="es" label="Spanish" >
+                    </video>
+                  </figure>
+                </section>
+                <center><button id="btnBMW100RR" type="button" class="btn btn-primary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2">Pagina de la moto</button></center>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary d-inline-flex focus-ring focus-ring-danger py-1 px-2 border rounded-2" data-bs-dismiss="modal">Close</button>                
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div id="suzuki" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/Suzuki-GSX-R600.webp" class="card-img-top" alt="Suzuki-GSX-R600">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">Suzuki GSX R600</h5>
+              <p class="card-text">Marca: Suzuki</p>
+              <center><a href="#" class="btn btn-primary">Ver detalle</a></center>
+            </div>
+          </div>
+        </div>
+
+        <div id="kawasaki" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/kawasaki-klx-150.jpg" class="card-img-top" alt="Kawasaki klx 150">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title">Kawasaki klx 150</h5>
+              <p class="card-text">Marca: Kawasaki</p>
+              <center><a href="#" class="btn btn-primary">Ver detalle</a></center>
+            </div>
+          </div>
+        </div>
+
+        <div id="suzuki" class="col producto p-3">
+          <div class="card" style="width: 18rem;">
+            <figure>
+              <img height="200vw" src="./imgMotos/Suzuki-DR200S.webp" class="card-img-top" alt="Suzuki-DR200S">
+            </figure>
+            <div class="card-body">
+              <h5 class="card-title text-center">Suzuki DR200S</h5>
+              <p class="card-text">Marca: Suzuki</p>
+              <center><a href="#" class="btn btn-primary">Ver detalle</a></center>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  
+    </main>
+    
+
+
+    <footer>
+      <center><h2>Datos de creador</h2></center>
+      <table class="table">
+          <thead>
+            <tr>
+              <th colspan="2" scope="col"><center>Datos del creador</center></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td colspan="2"><center>Andrey Cruz Molina</center></td>
+              
+            </tr>
+            <tr>
+              <td colspan="2"><center>Desarrollador de aplicaciones de software</center></td>
+              
+            </tr>
+
+          </tbody>
+        </table>
+  </footer>
+
+
+
+    <script src="./js/Java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Author" content="Andrey Cruz Molina">
+    <meta name="keywords" content="motos,informacion">
+    <link rel="icon" href="imginicio/icono.png">
+    <title>MotoWeb</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilos.css">
+  </head>
+  <body>
+
+
+    <header>
+        <nav aria-label="Menu Princial" class="menu1 navbar navbar-expand-lg text-white bg-secondary fs-1">
+            <div class="container-fluid">
+              <a class="navbar-brand text-white" href="Inicio.html">Moto Web</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Bara de navegacion">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a aria-label="Inicio"  class="nav-link active text-white active" aria-current="page" href="Inicio.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a aria-label="Motos" class="nav-link text-white" href="Motos.html">Motos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a aria-label="Acerca de nosotros" class="nav-link text-white" href="AcercaDe.html">Acerca de</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main>
+        
+      <section class="InformacionPerso" aria-label="InformacionPersonal">
+        <center><h1>Acerca de mi</h1></center>
+        <p>Hola mi nombre es Andrey, soy programador y aca te presento mi nueva pagina WEB informativa sobre las motos, esta pagina la hice con el fin de brindar informacion para los usuarios amantes de las motos, esta pagina todavia le falta mucho trabajo por hacer pero con esfuerzo y trabajo ire incluyendo mas informacion sobre las cartas faltantes, te brindo alguna informacion varia como texto,imagenes, videos y audios</p>
+        <p>Proximamente ire agregando mas accesibilidad y mejoria en la pagina para que los usuarios disfruten y puedan navegar con mas comodidad </p>
+        <figure><center>
+          <img src="./imgMotos/posicion_motorista.webp" alt="Imagen de como ir en moto">
+          <figcaption class="fs-2">Como debes colocarte en la moto</figcaption>
+        
+        </center>
+          </figure>
+      </section>
+      <br><br>
+      <section aria-label="formulario">
+        <center><h2>Aca te dejo un formulario para que puedas dejarme tus comentarios e ideas para integrar en la pagina</h2></center>
+        <br>
+        <h2>Formulario Accesible de Registro</h2>
+
+    <form class="fs-2" id="registrationForm" aria-labelledby="formTitle" role="form">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input placeholder="Ingresa tu nombre" type="text" id="nombre" name="nombre" required aria-describedby="nombreHelp">
+        </div>
+
+        <div>
+            <label for="apellidos">Apellidos:</label>
+            <input placeholder="Ingresa tus apellidos" type="text" id="apellidos" name="apellidos" required aria-describedby="apellidosHelp">
+        </div>
+
+        <div>
+            <label for="edad">Edad:</label>
+            <input placeholder="Ingrese tu edad" type="text" id="edad" name="edad" required min="0" aria-describedby="edadHelp">
+        </div>
+
+        <div>
+            <label for="numero">Número:</label>
+            <input placeholder="8888-8888" type="text" id="numero" name="numero" required aria-describedby="numeroHelp">
+        </div>
+
+        <fieldset>
+            <legend>Género:</legend>
+            <label for="masculino">
+                <input type="radio" id="masculino" name="genero" value="Masculino" required> Masculino
+            </label>
+            <label for="femenino">
+                <input type="radio" id="femenino" name="genero" value="Femenino"> Femenino
+            </label>
+            <label for="otro">
+                <input type="radio" id="otro" name="genero" value="Otro"> Otro
+            </label>
+        </fieldset>
+
+        <div>
+            <label for="comentarios">Comentarios:</label>
+            <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tus comentarios aquí..."></textarea>
+        </div>
+
+        <input type="button" value="Enviar" id="submitButton">
+    </form>
+
+      </section>
+
+    </main>
+    
+
+
+    <footer aria-label="Pie de pagina">
+        <center><h2>Datos de creador</h2></center>
+        <table class="table">
+            <thead>
+              <tr>
+                <th colspan="2" scope="col"><center>Datos del creador</center></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2"><center>Andrey Cruz Molina</center></td>
+                
+              </tr>
+              <tr>
+                <td colspan="2"><center>Desarrollador de aplicaciones de software</center></td>
+                
+              </tr>
+
+            </tbody>
+          </table>
+    </footer>
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script src="./js/RegistroFormu.JS"></script>
+  </body>
+</html>
